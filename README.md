@@ -6,7 +6,7 @@ AskDB is a Streamlit web application, built with Python and powered by Langchain
 ## How It Works
 
 1. The user asks a question.
-2. The application generates a descriptive message about the database by feeding the first three rows from all tables within the database to a Language Model (specifically, gpt-3.5-turbo).
+2. The application generates a descriptive message about the database by feeding the first three rows from all tables within the database to a Language Model (specifically, gpt-3.5-turbo / gpt-4o-mini).
 3. The SQL query is crafted and executed.
    - The SQL Agent formulates an SQL query based on the user's input.
    - This query is retrieved via a callback handler and run against the database to gather the required information.
