@@ -14,6 +14,20 @@ AskDB is a Streamlit web application, built with Python and powered by Langchain
 5. Users are given the option to modify the auto-generated SQL query and execute it again, allowing for customization and refinement of the results.
 6. The fetched data can be visualized as bar, line, or scatter plots, or downloaded as a CSV file for further analysis.
 
+## Demo
+
+# Upload DB and Show Schemas
+https://github.com/user-attachments/assets/e25375d7-911f-4789-9e5f-55109748d5aa
+
+# Chats
+https://github.com/user-attachments/assets/d7890dac-9e13-402a-a74d-a4b4c07eb390
+
+# Manual Querying
+https://github.com/user-attachments/assets/87d84b39-bbf2-489e-88c6-94e32116be4f
+
+# Auto Querying and Data Vizualization
+https://github.com/user-attachments/assets/2f36c060-8d25-4e1f-8e1c-f92400cfcf05
+
 ## Note on Usage
 Due to the cost of OpenAI API keys, the app may not always run with full functionality. However, if you do wish to try it out, feel free to check it out and run in your local. Just place your api key in the secrets.toml file inside .streamlit directory and it should work fine! (Assuming that all the dependencies have already been installed and a virtual environment is created). Thanks for understanding!
 
