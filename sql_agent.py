@@ -22,7 +22,7 @@ class SQLAgent:
         self.db = db
 
         # Create the LLM model
-        self.llm = ChatOpenAI(model="gpt-4o-mini", temperature=0, api_key=st.secrets["OPENAI_API_KEY"])
+        self.llm = ChatOpenAI(model="gpt-4.1-mini", temperature=0, api_key=st.secrets["OPENAI_API_KEY"])
 
         # Create the SQL handler
         self.handler = SQLHandler()
